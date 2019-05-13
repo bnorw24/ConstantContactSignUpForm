@@ -1,0 +1,54 @@
+    body {
+        background-color: #515658;
+        color: #E6E9DB;
+        text-align: center;
+    }
+    h2 {
+        color: #E6E9DB;
+        text-align: center;
+        font-family: Calibri, arial, sans-serif;
+        font-size: 24px;
+    }
+    div{
+        font-family: Calibri, arial, sans-serif;
+        font-size: 14px;
+        color: white;
+    }
+    p{
+        color: #E6E9DB;
+        font-family: Calibri, arial, sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+    button{
+        border-radius: 12px;
+        border: 2px solid white;
+        background-color: #2F5B68;
+        font-family: Calibri, arial, sans-serif;
+        font-size: 18px;
+        padding: 10px 10px;
+        cursor: pointer;
+        color: white;
+    }
+    .table1{
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 100% !important;
+        background-color: #232525;
+        padding: 10px 10px 40px 10px;
+    }
+    .table2{
+        background-color: #2B2B2B;
+    }
+    .table3{
+        background-color: #232525;
+    }
+    .td1{
+        padding: 20px 0px 20px 0px
+    }
+    button:hover{
+        border: 2px solid #5BA0B5;
+        background-color: white;
+        color: black;
+        transition-duration: 0.3s;
+    }

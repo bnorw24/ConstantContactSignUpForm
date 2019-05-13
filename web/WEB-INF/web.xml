@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app version="4.0" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee">
+
+
+    <servlet>
+        <servlet-name> Home Page </servlet-name>
+        <jsp-file> /index.jsp </jsp-file>
+    </servlet>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>signup.indexServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Home Page </servlet-name>
+        <url-pattern> /Home </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name> Sign up form </servlet-name>
+        <jsp-file> /signup.jsp </jsp-file>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name> Sign up form </servlet-name>
+        <url-pattern> /signup </url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet</servlet-name>
+        <servlet-class>signup.Servlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Servlet</servlet-name>
+        <url-pattern>/result.jsp</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
