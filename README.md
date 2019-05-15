@@ -9,21 +9,21 @@ This project uses several Java classes, a servlet and JSPs to run a sign up form
 The *postContact.java* file contains one method:
  1. **postContactData()**
 Returns JSON object of the results from the post call.
-   - This function takes on the following four parameters:
-     1. email         Email address of contact to be added
-     2. listId        ID of the list the contact will go into
-     3. listId        ID of the list the contact will be added into (or remain in)
-     4. access_token  Access token retrieved from getAccessToken call
+     - This function takes on the following four parameters:
+       1. email         Email address of contact to be added
+       2. listId        ID of the list the contact will go into
+       3. listId        ID of the list the contact will be added into (or remain in)
+       4. access_token  Access token retrieved from getAccessToken call
      
      
  #### putContact
 The *putContact.java* file contains one method:
  1. **putContactData()**
 Returns JSON object of the results form the post call.
-   - This function takes on the following three parameters:
-     1. email         Email address of contact to be added
-     2. listId        ID of the list the contact will go into
-     3. access_token  Access token retrieved from getAccessToken call
+     - This function takes on the following three parameters:
+       1. email         Email address of contact to be added
+       2. listId        ID of the list the contact will go into
+       3. access_token  Access token retrieved from getAccessToken call
 
      
  #### Server Flow
